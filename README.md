@@ -47,6 +47,7 @@ Instead of a single LLM trying to do everything, LegacyLens mimics a real-world 
 
 LegacyLens utilizes a Sequential Multi-Agent Pipeline powered by Google Gemini 2.5 Flash.
 
+``` meremaid.js
 graph TD
     User[User Input: GitHub URL] --> Tool[Ingestion Tool (subprocess)]
     Tool -->|Clones Repo| FileSystem
@@ -57,6 +58,7 @@ graph TD
     Architect -->|Mermaid Graph| UI[Streamlit UI]
     Writer -->|Final README.md| UI
 
+``` 
 
 1. The "Hands" (Tool Use)
 
