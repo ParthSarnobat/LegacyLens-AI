@@ -8,7 +8,7 @@
 </p>
 
 
-Open in Streamlit : <a href="https://legacylens-ai.streamlit.app/">
+Open in Streamlit :  https://legacylens-ai.streamlit.app/
 <!-- <img src="https://www.google.com/search?q=https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Open in Streamlit"> -->
 </a>
 <a href="https://www.google.com/search?q=https://youtu.be/YOUR_VIDEO_ID">
