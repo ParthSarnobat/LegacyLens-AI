@@ -113,25 +113,27 @@ Visualization: Mermaid.js (rendered via mermaid.ink API).
 🏁 Getting Started Locally
 
 Clone the repository:
-
+``` bash
 git clone [https://github.com/your-username/legacylens-ai.git](https://github.com/your-username/legacylens-ai.git)
 cd legacylens-ai
-
+```
 
 Install dependencies:
-
+``` bash
 pip install -r requirements.txt
-
+``` 
 
 Set up your API Key:
 Create a .env file and add your Google Gemini Key:
 
+``` env
 GOOGLE_API_KEY=your_key_here
-
+```
 
 Run the Agent:
 
+``` python
 streamlit run app.py
-
+```
 
 Submitted for the Google AI Agents Intensive Hackathon 2025 - Enterprise Track
