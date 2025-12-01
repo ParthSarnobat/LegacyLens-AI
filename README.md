@@ -1,16 +1,15 @@
 <div align="center">
 <img src="LegacyLens_logo.png" alt="LegacyLens AI Logo" width="200">
-<h1>**LegacyLens AI**</h1>
+<h1LegacyLens AI</h1>
 <h3>The Autonomous Code Archeologist</h3>
 
 <p>
 <b>Turn "Spaghetti Code" into Professional Documentation with a Multi-Agent Team.</b>
 </p>
 
-<!-- REPLACE THIS LINK WITH YOUR ACTUAL STREAMLIT APP LINK -->
 
-<a href="https://legacylens-ai.streamlit.app/">
-<img src="https://www.google.com/search?q=https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Open in Streamlit">
+Open in Streamlit : <a href="https://legacylens-ai.streamlit.app/">
+<!-- <img src="https://www.google.com/search?q=https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Open in Streamlit"> -->
 </a>
 <a href="https://www.google.com/search?q=https://youtu.be/YOUR_VIDEO_ID">
 <img src="https://www.google.com/search?q=https://img.shields.io/badge/Demo-Watch%2520Video-red%3Fstyle%3Dfor-the-badge%26logo%3Dyoutube" alt="Watch Demo">
