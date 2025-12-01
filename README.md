@@ -10,7 +10,7 @@
 
 Open in Streamlit :  https://legacylens-ai.streamlit.app/
 <!-- <img src="https://www.google.com/search?q=https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Open in Streamlit"> -->
-Watch demo video : 
+Watch demo video : https://youtu.be/iX-Uaa4EYqc
 </div>
 
 ## 🎯 The Problem
@@ -121,4 +121,4 @@ Run the Agent:
 streamlit run app.py
 ```
 
-Submitted for the Google AI Agents Intensive Hackathon 2025 - Enterprise Track
+**Submitted for the Google AI Agents Intensive Hackathon 2025 - Enterprise Track**
