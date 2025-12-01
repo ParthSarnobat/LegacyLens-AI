@@ -47,7 +47,9 @@ Instead of a single LLM trying to do everything, LegacyLens mimics a real-world 
 
 LegacyLens utilizes a Sequential Multi-Agent Pipeline powered by Google Gemini 2.5 Flash.
 
+
 ![LegacyLens AI flowchart](LegacyLens_flowchart.png)
+<img src="LegacyLens_flowchart.png" alt="Flowchart" width="400">
 1. The "Hands" (Tool Use)
 
 The system creates an autonomous Ingestion Tool (ingest_code.py).
