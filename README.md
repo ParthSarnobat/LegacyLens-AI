@@ -41,7 +41,7 @@ Instead of a single LLM trying to do everything, LegacyLens mimics a real-world 
 
 📸 Screenshots
 
-![Screenshot](Screenshot LegacyLens.png)
+![Screenshot](Screenshot_LegacyLens.png)
 
 ⚙️ Architecture & Agentic Workflow
 
