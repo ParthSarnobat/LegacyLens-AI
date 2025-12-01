@@ -41,25 +41,13 @@ Instead of a single LLM trying to do everything, LegacyLens mimics a real-world 
 
 📸 Screenshots
 
-(Place a screenshot of your app here. It proves the UI is polished!)
+![Screenshot](Screenshot LegacyLens.png)
 
 ⚙️ Architecture & Agentic Workflow
 
 LegacyLens utilizes a Sequential Multi-Agent Pipeline powered by Google Gemini 2.5 Flash.
 
-``` meremaid.js
-graph TD
-    User[User Input: GitHub URL] --> Tool[Ingestion Tool (subprocess)]
-    Tool -->|Clones Repo| FileSystem
-    FileSystem -->|Raw Context| Analyst[🕵️ Analyst Agent]
-    Analyst -->|Functional Summary| TechLead[🚩 Tech Lead Agent]
-    Analyst -->|Data Flow| Architect[📊 Architect Agent]
-    TechLead -->|Security Audit| Writer[📝 Writer Agent]
-    Architect -->|Mermaid Graph| UI[Streamlit UI]
-    Writer -->|Final README.md| UI
-
-``` 
-
+![LegacyLens AI flowchart](LegacyLens_flowchart.png)
 1. The "Hands" (Tool Use)
 
 The system creates an autonomous Ingestion Tool (ingest_code.py).
