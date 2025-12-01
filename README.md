@@ -9,7 +9,7 @@
 
 <!-- REPLACE THIS LINK WITH YOUR ACTUAL STREAMLIT APP LINK -->
 
-<a href="https://www.google.com/url?sa=E&source=gmail&q=https://your-app-url.streamlit.app">
+<a href="[https://www.google.com/url?sa=E&source=gmail&q=https://your-app-url.streamlit.app](https://legacylens-ai.streamlit.app/)">
 <img src="https://www.google.com/search?q=https://static.streamlit.io/badges/streamlit_badge_black_white.svg" alt="Open in Streamlit">
 </a>
 <a href="https://www.google.com/search?q=https://youtu.be/YOUR_VIDEO_ID">
