@@ -1,6 +1,6 @@
 <div align="center">
 <img src="LegacyLens_logo.png" alt="LegacyLens AI Logo" width="200">
-<h1>LegacyLens AI</h1>
+<h1>**LegacyLens AI**</h1>
 <h3>The Autonomous Code Archeologist</h3>
 
 <p>
@@ -17,7 +17,7 @@
 </a>
 </div>
 
-🎯 ##The Problem
+## 🎯 The Problem
 
 "Why does this variable exist?" "Who wrote this?" "If I touch this line, will the server explode?"
 
@@ -25,30 +25,31 @@ Every developer knows the pain of inheriting legacy code. Studies show developer
 
 We are drowning in code but starving for context.
 
-🚀 The Solution
+## 🚀 The Solution
 
 LegacyLens AI is not just a code summarizer; it is an autonomous team of specialized AI agents that work together to reverse-engineer undocumented systems.
 
 Instead of a single LLM trying to do everything, LegacyLens mimics a real-world engineering team:
 
-🕵️ The Analyst: Clones & reads raw code to map data flow.
+🕵️**The Analyst**: Clones & reads raw code to map data flow.
 
-🚩 The Tech Lead: Audits the code for security risks and "smells."
+🚩 **The Tech Lead**: Audits the code for security risks and "smells."
 
-📝 The Writer: Compiles everything into professional documentation.
+📝 **The Writer**: Compiles everything into professional documentation.
 
-📊 The Architect: Visualizes the system structure automatically.
+📊 **The Architect**: Visualizes the system structure automatically.
 
-📸 Screenshots
+## 📸 Screenshots
 
 ![Screenshot](Screenshot_LegacyLens.png)
 
-⚙️ Architecture & Agentic Workflow
+## ⚙️ Architecture & Agentic Workflow
 
 LegacyLens utilizes a Sequential Multi-Agent Pipeline powered by Google Gemini 2.5 Flash.
 
 <img src="LegacyLens_flowchart.png" alt="Flowchart" width="400">
-1. The "Hands" (Tool Use)
+
+### 1. The "Hands" (Tool Use)
 
 The system creates an autonomous Ingestion Tool (ingest_code.py).
 
@@ -58,37 +59,37 @@ Uses Python's subprocess to execute real git clone commands.
 
 Traverses the file system, filtering out noise (node_modules, .git) to prepare a high-density context window.
 
-2. The "Brains" (The Agent Chain)
+### 2. The "Brains" (The Agent Chain)
 
-Agent 1: The Analyst (Context Ingestor)
+**Agent 1**: The Analyst (Context Ingestor)
 
-Task: Ingests raw code (up to 800k characters). Identifies tech stacks, entry points, and core logic.
+**Task**: Ingests raw code (up to 800k characters). Identifies tech stacks, entry points, and core logic.
 
-Agent 2: The Tech Lead (Auditor)
+**Agent 2**: The Tech Lead (Auditor)
 
-Task: Critiques the Analyst's report. It looks for security vulnerabilities (hardcoded keys), deprecated libraries, and anti-patterns.
+**Task**: Critiques the Analyst's report. It looks for security vulnerabilities (hardcoded keys), deprecated libraries, and anti-patterns.
 
-Agent 3: The Writer (Synthesizer)
+**Agent 3**: The Writer (Synthesizer)
 
-Task: Synthesizes findings into a standard README.md format (Installation, Usage, Features).
+**Task**: Synthesizes findings into a standard README.md format (Installation, Usage, Features).
 
-Agent 4: The Architect (Visualizer)
+**Agent 4**: The Architect (Visualizer)
 
-Task: Generates raw Mermaid.js graph definitions to visually map file dependencies.
+**Task**: Generates raw Mermaid.js graph definitions to visually map file dependencies.
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-Model: Google Gemini 2.5 Flash (Optimized for massive context windows).
+**Model**: Google Gemini 2.5 Flash (Optimized for massive context windows).
 
-Framework: Streamlit (UI).
+**Framework**: Streamlit (UI).
 
-Orchestration: Custom Python Agent Classes with System Prompting.
+**Orchestration**: Custom Python Agent Classes with System Prompting.
 
-Tools: Git (via subprocess), shutil for file management.
+**Tools**: Git (via subprocess), shutil for file management.
 
-Visualization: Mermaid.js (rendered via mermaid.ink API).
+**Visualization**: Mermaid.js (rendered via mermaid.ink API).
 
-✨ Key Features (Competition Tracks)
+## ✨ Key Features (Competition Tracks)
 
 🌍 Universal Repository Loader: Works on ANY public GitHub repository URL.
 
@@ -98,7 +99,7 @@ Visualization: Mermaid.js (rendered via mermaid.ink API).
 
 🚩 Automated Auditing: Doesn't just explain code; warns you about security risks.
 
-🏁 Getting Started Locally
+##  Getting Started Locally
 
 Clone the repository:
 ``` bash
